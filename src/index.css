@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*
+
+
+border-radius: 30px; */
+body{
+  background-color: #fff;
+  font-family: inter;
+}
+
+
+.header__background{
+  background: linear-gradient(110.52deg, #eacbcb70 9%, #cfa3f138 47.77%, #aa87f569 90.75%);
+}
+
+@layer components{
+  .header__background{
+    @apply h-[40vh]
+  }
+  .project__button{
+    @apply  mt-4 mr-3 px-5 py-2 font-bold rounded-full text-neutral hover:bg-primary transition duration-200 ease-in
+  }
+.tech__button{
+  @apply border-2 border-primary text-primary hover:text-neutral
+}
+
+
+}
