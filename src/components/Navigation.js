@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navigation() {
 	return (
-		<div className="flex justify-between py-4 font-light mx-10">
+		<nav className="flex justify-between py-4 font-light mx-10">
 			<h1 className="text-base">Prashant Indurkar</h1>
 			<ul className="hidden md:flex gap-4">
 				<li>About</li>
@@ -26,7 +26,7 @@ function Navigation() {
 					/>
 				</svg>
 			</div>
-		</div>
+		</nav>
 	);
 }
 

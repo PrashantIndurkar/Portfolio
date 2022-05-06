@@ -13,7 +13,7 @@ const Project = ({
 	return (
 		<div className="mx-10 mt-4 text-center mb-12">
 			<h1 className="text-2xl font-bold text-center">{name}</h1>
-			<div className="mx-auto mt-5 shadow-2xl">
+			<div className="mx-auto mt-5 shadow-xl">
 				<img className="rounded-xl cursor-pointer" src={img} alt="" />
 			</div>
 			<h2 className="text-center mt-4 text-lg underline underline-offset-2 decoration-lightBlue">
@@ -21,13 +21,13 @@ const Project = ({
 			</h2>
 			<div className="">
 				<a href={twitterCloneLink}>
-					<button className="project__button tech__button">
+					<button className="tech__button">
 						<img className="h-6" src={icon} alt="" />
 					</button>
 				</a>
 
 				<a href="https://vercel.com">
-					<button className="project__button tech__button">
+					<button className="tech__button">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							class="h-6 w-6"
@@ -50,15 +50,15 @@ const Project = ({
 				placeat. Sit, incidunt?
 			</p>
 			<div>
-				<h2 className="text-center mt-4 text-lg underline underline-offset-2 decoration-lightBlue">
+				<h2 className="text-center mt-8 text-lg underline underline-offset-2 decoration-lightBlue">
 					Tech Stack
 				</h2>
-				<button className="project__button tech__button">
+				<button className="tech__button">
 					<a href="https://tailwindcss.com/">{stackOne}</a>
 				</button>
-				<button className="project__button tech__button">{stackTwo}</button>
-				<button className="project__button tech__button">{stackThree}</button>
-				<button className="project__button tech__button">{stackFour}</button>
+				<button className="tech__button">{stackTwo}</button>
+				<button className="tech__button">{stackThree}</button>
+				<button className="tech__button">{stackFour}</button>
 			</div>
 		</div>
 	);

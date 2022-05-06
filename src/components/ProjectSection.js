@@ -13,7 +13,7 @@ function ProjectSection() {
 	const hashnodeCloneLink = 'https://hashnode.com';
 
 	return (
-		<div className="bg-neutral -mt-5 rounded-tl-3xl">
+		<div className="bg-neutral -mt-5 rounded-tl-3xl text-center">
 			<h1 className="mx-10 pt-12 text-3xl font-black text-center text-primary">
 				Selected Projects
 			</h1>
@@ -48,6 +48,7 @@ function ProjectSection() {
 				stackThree={'Redux'}
 				stackFour={'firebase'}
 			/>
+			<button className="project__button mb-12">See More</button>
 		</div>
 	);
 }

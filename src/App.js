@@ -1,4 +1,5 @@
 import './App.css';
+import AboutMe from './components/AboutMe';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
 import ProjectSection from './components/ProjectSection';
@@ -8,6 +9,7 @@ function App() {
 			<Navigation />
 			<Header />
 			<ProjectSection />
+			<AboutMe />
 		</div>
 	);
 }
