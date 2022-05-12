@@ -17,7 +17,6 @@ function ProjectSection() {
 			<h1 className="mx-10 pt-12 text-3xl font-black text-center text-primary">
 				Selected Projects
 			</h1>
-
 			<Project
 				name={'Twitter Clone'}
 				img={twitterClone}
@@ -48,7 +47,15 @@ function ProjectSection() {
 				stackThree={'Redux'}
 				stackFour={'firebase'}
 			/>
-			<button className="project__button mb-12">See More</button>
+			<div className="mb-5">
+				<a href="#_" class="relative inline-block px-4 py-2 font-medium group">
+					<span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
+					<span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
+					<span class="relative text-black group-hover:text-white">
+						See More
+					</span>
+				</a>
+			</div>
 		</div>
 	);
 }

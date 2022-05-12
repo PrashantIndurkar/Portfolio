@@ -19,12 +19,13 @@ body{
   .header__background{
     @apply h-[40vh]
   }
-  .project__button{
-    @apply mt-4 mr-3 px-5 py-2 font-bold border-primary text-primary border-2 hover:bg-lightBlue hover:border-lightBlue hover:text-neutral transition duration-150 ease-in hover:shadow-md hover:shadow-lightBlue
-  }
+  /* .project__button{
+    @apply mt-4 mr-3 px-5 py-2 font-bold border-secondary text-secondary border-2  transition duration-150 ease-in shadow-lg shadow-secondary hover:shadow-none
+  } */
 .tech__button{
   @apply mt-5 mr-5 px-5 py-2 font-bold rounded-md bg-[#c2bbeb4b] text-lightBlue cursor-pointer shadow-md
 }
-
-
+.skill__container{
+  @apply   shadow-xl border-2
+}
 }
