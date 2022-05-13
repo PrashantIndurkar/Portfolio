@@ -43,7 +43,7 @@ const AboutMe = () => {
 						some cool stuff with it. I listen a lot of lofi, striming music and
 						podcasts all the time. Here is my profile on{' '}
 						<a href="https://open.spotify.com/user/h0zw2h4earqhkyv7le06o5038">
-							<span className=" underline underline-offset-4 font-bold cursor-pointer hover:decoration-[#21c45a] hover:text-[#21c45a] transition duration-100 ease-in">
+							<span className=" underline decoration-dotted underline-offset-4 font-bold cursor-pointer hover:decoration-[#21c45a] hover:text-[#21c45a] transition duration-100 ease-in">
 								Spotify.
 							</span>
 						</a>
