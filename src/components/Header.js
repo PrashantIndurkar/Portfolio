@@ -6,8 +6,7 @@ function Header() {
 			<div className="header__background rounded-tl-3xl flex flex-col justify-center items-center tracking-wide text-secondary text-center">
 				<div className="font-extrabold mx-10 ">
 					<p className="mb-3 text-lg font-light leading-5">
-						Namaste
-						<img className="h-6 inline" src={foldedHands} alt="" /> I'm
+						<img className="h-6 inline" src={foldedHands} alt="" /> I'm Namaste
 					</p>
 					<h1 className="text-2xl leading-normal font-bold">
 						Prashant Indurkar

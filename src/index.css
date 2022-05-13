@@ -26,6 +26,6 @@ body{
   @apply mt-5 mr-5 px-5 py-2 font-bold rounded-md bg-[#c2bbeb4b] text-lightBlue cursor-pointer shadow-md
 }
 .skill__container{
-  @apply   shadow-xl border-2
+  @apply border-[1px] border-[#44444538] h-20 w-20 text-base flex items-center justify-center hover:cursor-pointer hover:shadow-xl shadow-[#aaa4d2f5] hover:border-[#aaa4d2f5] transition duration-150
 }
 }
