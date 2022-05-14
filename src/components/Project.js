@@ -12,22 +12,23 @@ const Project = ({
 }) => {
 	return (
 		<div className="mx-10 mt-4 text-center mb-12">
-			<h1 className="text-2xl font-bold text-center">{name}</h1>
+			<h1 className="text-2xl font-bold text-center tracking-wide">{name}</h1>
 			<div className="mx-auto mt-5 shadow-xl">
 				<img className="rounded-xl cursor-pointer" src={img} alt="" />
 			</div>
-			<h2 className="text-center mt-4 text-lg underline underline-offset-2 decoration-lightBlue">
+			<h2 className="text-center mt-4 text-lg underline underline-offset-2 decoration-lightBlue tracking-wide">
 				Take Actions
 			</h2>
-			<div className="">
+			<div className="flex justify-center items-center gap-10 mt-6">
 				<a href={twitterCloneLink}>
-					<button className="tech__button">
+					<button className="action__button">
 						<img className="h-6" src={icon} alt="" />
+						<h1 className="font-bold ml-1">Github</h1>
 					</button>
 				</a>
 
 				<a href="https://vercel.com">
-					<button className="tech__button">
+					<button className="action__button">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							class="h-6 w-6"
@@ -40,6 +41,7 @@ const Project = ({
 								clip-rule="evenodd"
 							/>
 						</svg>
+						<h1 className="font-bold ml-1">Live</h1>
 					</button>
 				</a>
 			</div>
@@ -50,15 +52,17 @@ const Project = ({
 				placeat. Sit, incidunt?
 			</p>
 			<div>
-				<h2 className="text-center mt-8 text-lg underline underline-offset-2 decoration-lightBlue">
+				<h2 className="text-center mt-8 text-lg underline underline-offset-2 decoration-lightBlue tracking-wide">
 					Tech Stack
 				</h2>
-				<button className="tech__button">
-					<a href="https://tailwindcss.com/">{stackOne}</a>
-				</button>
-				<button className="tech__button">{stackTwo}</button>
-				<button className="tech__button">{stackThree}</button>
-				<button className="tech__button">{stackFour}</button>
+				<div className="mt-2">
+					<button className="tech__button">
+						<a href="https://tailwindcss.com/">{stackOne}</a>
+					</button>
+					<button className="tech__button">{stackTwo}</button>
+					<button className="tech__button">{stackThree}</button>
+					<button className="tech__button">{stackFour}</button>
+				</div>
 			</div>
 		</div>
 	);

@@ -4,8 +4,8 @@ import { DocumentDownloadIcon } from '@heroicons/react/outline';
 const AboutMe = () => {
 	return (
 		<div className="bg-[#F2F2F2] rounded-tl-3xl pb-6">
-			<div className="mx-10 pb-12">
-				<h1 className="font-black text-center text-3xl text-primary pt-12">
+			<div className="mx-10 pb-10">
+				<h1 className="font-black text-center text-3xl text-primary pt-12 tracking-wide">
 					About Me
 				</h1>
 				<div className="mt-6 space-y-6 font-normal ">
@@ -50,7 +50,7 @@ const AboutMe = () => {
 					</p>
 				</div>
 			</div>
-			<div className="text-center">
+			<div className="text-center mb-10">
 				<a
 					href="https://drive.google.com/uc?export=download&id=1RPmlzsAp8HzBWCGtSVvOiLQSCRHASuOJ"
 					class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-green-500 rounded-xl group"

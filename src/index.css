@@ -22,10 +22,14 @@ body{
   /* .project__button{
     @apply mt-4 mr-3 px-5 py-2 font-bold border-secondary text-secondary border-2  transition duration-150 ease-in shadow-lg shadow-secondary hover:shadow-none
   } */
+
+.action__button{
+  @apply ml-2 py-1 px-2  font-medium rounded-md bg-[#c2bbeb2f] text-primary cursor-pointer focus:outline-none flex
+}
 .tech__button{
-  @apply mt-5 mr-5 px-5 py-2 font-bold rounded-md bg-[#c2bbeb4b] text-lightBlue cursor-pointer shadow-md
+  @apply ml-2 py-1 px-2 mt-2 font-medium rounded-md bg-[#c2bbeb2f] text-lightBlue cursor-pointer focus:outline-none
 }
 .skill__container{
-  @apply border-[1px] border-[#44444538] h-20 w-20 text-base flex items-center justify-center hover:cursor-pointer hover:shadow-xl shadow-[#aaa4d2f5] hover:border-[#aaa4d2f5] transition duration-150
+  @apply border-[1px] border-[#44444553] h-20 w-20 text-base flex items-center justify-center hover:cursor-pointer hover:shadow-xl shadow-[#aaa4d2f5] hover:border-[#aaa4d2f5] transition duration-150
 }
 }
