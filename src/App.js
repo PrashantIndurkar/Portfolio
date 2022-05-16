@@ -2,13 +2,15 @@ import './App.css';
 import AboutMe from './components/AboutMe';
 import GetInTouch from './components/GetInTouch';
 import Header from './components/Header';
-import Navigation from './components/Navigation';
+import Navbar from './components/navbar/Navbar';
+import Notice from './components/Notice';
 import ProjectSection from './components/ProjectSection';
 import Skills from './components/Skills';
 function App() {
 	return (
 		<div>
-			<Navigation />
+			<Notice />
+			<Navbar />
 			<Header />
 			<ProjectSection />
 			<AboutMe />

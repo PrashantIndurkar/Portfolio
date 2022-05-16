@@ -24,7 +24,7 @@ body{
   } */
 
 .action__button{
-  @apply ml-2 py-1 px-2  font-medium rounded-md bg-[#c2bbeb2f] text-primary cursor-pointer focus:outline-none flex
+  @apply ml-2 py-2 px-2  font-medium rounded-md bg-[#c2bbeb2f] text-primary cursor-pointer focus:outline-none flex hover:bg-lightBlue
 }
 .tech__button{
   @apply ml-2 py-1 px-2 mt-2 font-medium rounded-md bg-[#c2bbeb2f] text-lightBlue cursor-pointer focus:outline-none

@@ -16,9 +16,7 @@ const Project = ({
 			<div className="mx-auto mt-5 shadow-xl">
 				<img className="rounded-xl cursor-pointer" src={img} alt="" />
 			</div>
-			<h2 className="text-center mt-4 text-lg underline underline-offset-2 decoration-lightBlue tracking-wide">
-				Take Actions
-			</h2>
+
 			<div className="flex justify-center items-center gap-10 mt-6">
 				<a href={twitterCloneLink}>
 					<button className="action__button">
@@ -41,7 +39,7 @@ const Project = ({
 								clip-rule="evenodd"
 							/>
 						</svg>
-						<h1 className="font-bold ml-1">Live</h1>
+						<h1 className="font-bold ml-1">In Action</h1>
 					</button>
 				</a>
 			</div>
@@ -52,7 +50,7 @@ const Project = ({
 				placeat. Sit, incidunt?
 			</p>
 			<div>
-				<h2 className="text-center mt-8 text-lg underline underline-offset-2 decoration-lightBlue tracking-wide">
+				<h2 className="text-center mt-8 text-lg underline underline-offset-4 decoration-lightBlue tracking-wide">
 					Tech Stack
 				</h2>
 				<div className="mt-2">

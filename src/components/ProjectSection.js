@@ -14,7 +14,7 @@ function ProjectSection() {
 
 	return (
 		<div className="bg-neutral -mt-5 rounded-tl-3xl text-center">
-			<h1 className="mx-10 pt-12 text-3xl font-black text-center text-primary">
+			<h1 className="mx-10 pt-12 text-3xl font-black text-center text-primary tracking-wide">
 				Selected Projects
 			</h1>
 			<Project
@@ -48,12 +48,13 @@ function ProjectSection() {
 				stackFour={'firebase'}
 			/>
 			<div className="mb-10">
-				<a href="#_" class="relative inline-block px-4 py-2 font-medium group">
-					<span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-[#444445] group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
-					<span class="absolute inset-0 w-full h-full bg-white border-2 border-[#292929] group-hover:bg-[#292929]"></span>
-					<span class="relative text-[#292929] group-hover:text-white">
-						See More
-					</span>
+				<a
+					href="#_"
+					class="relative inline-flex items-center justify-center px-6 py-3 overflow-hidden  font-medium tracking-wider text-white bg-gray-800 group"
+				>
+					<span class="absolute w-0 h-0 transition-all duration-500 ease-out bg-lightBlue rounded-full group-hover:w-56 group-hover:h-56"></span>
+					<span class="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30"></span>
+					<span class="relative">See More...</span>
 				</a>
 			</div>
 		</div>
