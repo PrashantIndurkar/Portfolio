@@ -3,7 +3,7 @@ import { DocumentDownloadIcon } from '@heroicons/react/outline';
 
 const AboutMe = () => {
 	return (
-		<div className="bg-[#F2F2F2] rounded-tl-3xl pb-6">
+		<div id="about" className="bg-[#F2F2F2] rounded-tl-3xl pb-6">
 			<div className="mx-10 pb-10">
 				<h1 className="font-black text-center text-3xl text-primary pt-12 tracking-wide">
 					About Me

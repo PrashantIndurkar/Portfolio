@@ -2,7 +2,10 @@ import React from 'react';
 import { RiSendPlaneFill } from 'react-icons/ri';
 const GetInTouch = () => {
 	return (
-		<div className="bg-[#c2bbeb4b] rounded-tl-3xl rounded-bl-3xl rounded-br-3xl mb-4">
+		<div
+			id="contact"
+			className="bg-[#c2bbeb4b] rounded-tl-3xl rounded-bl-3xl rounded-br-3xl mb-4"
+		>
 			<div className="mx-10">
 				<h1 className="font-black text-center text-3xl text-primary pt-12 tracking-wide">
 					Get In Touch

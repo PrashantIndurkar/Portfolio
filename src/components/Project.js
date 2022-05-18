@@ -11,7 +11,7 @@ const Project = ({
 	stackFour,
 }) => {
 	return (
-		<div className="mx-10 mt-4 text-center mb-12">
+		<div id="project" className="mx-10 mt-4 text-center mb-12">
 			<h1 className="text-2xl font-bold text-center tracking-wide">{name}</h1>
 			<div className="mx-auto mt-5 shadow-xl">
 				<img className="rounded-xl cursor-pointer" src={img} alt="" />

@@ -18,7 +18,10 @@ import firebaseIcon from '../img/icons/firebase-1.svg';
 
 const Skills = () => {
 	return (
-		<div className="pb-6 rounded-tl-3xl overflow-x-hidden mb-10 mx-10">
+		<div
+			id="skill"
+			className="pb-6 rounded-tl-3xl overflow-x-hidden mb-10 mx-10"
+		>
 			<div className="">
 				<h1 className="font-black text-center text-3xl text-primary pt-12 tracking-wide">
 					Skills
