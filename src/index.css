@@ -1,40 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/*
 
-
-border-radius: 30px; */
 body{
   background-color: #fff;
   font-family: inter;
 }
 
-
 .header__background{
-  background:#c2bbeb4b;
-}
+  background-image:  linear-gradient(#dedff9 1.8px, transparent 1.8px), linear-gradient(to right, #dedff9 1.8px, #ededf7 1.8px);
+  background-size: 40px 40px;
 
+}
+.about__header{
+  background-image:  radial-gradient(#d9d9f9 0.8px, transparent 0.8px), radial-gradient(#d9d9f9 0.8px, #f7f4f4 0.8px);
+  background-size: 32px 32px;
+  background-position: 0 0,16px 16px;
+}
+.contact__background{
+background-size: 13px 13px;
+background-image: repeating-linear-gradient(45deg, #e9ebf8 0, #e0e2f5 1.3px, #ededf7 0, #ededf7 50%);
+}
 @layer components{
   .header__background{
-    @apply h-[40vh]
+    @apply h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[75vh]
   }
-  /* .project__button{
-    @apply mt-4 mr-3 px-5 py-2 font-bold border-secondary text-secondary border-2  transition duration-150 ease-in shadow-lg shadow-secondary hover:shadow-none
-  } */
 
-.action__button{
-  @apply ml-2 py-2 px-2  font-medium rounded-md bg-[#c2bbeb2f] text-primary cursor-pointer focus:outline-none flex hover:bg-lightBlue
-}
-.tech__button{
-  @apply ml-2 py-1 px-2 mt-2 font-medium rounded-md bg-[#c2bbeb2f] text-lightBlue cursor-pointer focus:outline-none
-}
-.skill__container{
-  @apply border-[1px] border-[#44444553] h-20 w-20 text-base flex items-center justify-center hover:cursor-pointer hover:shadow-xl shadow-[#aaa4d2f5] hover:border-[#aaa4d2f5] transition duration-150
-}
-}
-@layer base{
-  /* html{
-    scroll-behavior:smooth
-  } */
+  .skill__container{
+    @apply border-[1px] border-[#36363636] rounded-md h-16 w-16 sm:h-32 sm:w-32 flex justify-center items-center hover:border-[#bdb5f3] transition duration-200 cursor-pointer hover:shadow-md hover:-translate-y-[2px]
+  }
 }

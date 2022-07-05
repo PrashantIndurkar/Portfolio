@@ -4,32 +4,50 @@ const Project = ({
 	name,
 	img,
 	icon,
-	twitterCloneLink,
+	liveLink,
 	stackOne,
 	stackTwo,
 	stackThree,
 	stackFour,
+	rightSideImage,
+	projectDiscription,
 }) => {
 	return (
-		<div id="project" className="mx-10 mt-4 text-center mb-12">
-			<h1 className="text-2xl font-bold text-center tracking-wide">{name}</h1>
-			<div className="mx-auto mt-5 shadow-xl">
-				<img className="rounded-xl cursor-pointer" src={img} alt="" />
-			</div>
+		<div id="project" className="mx-10 mt-4 text-center mb-20 md:mx-16 ">
+			{/* TITLE NAME*/}
+			<h1 className="text-2xl mb-8 md:mb-14 md:text-3xl text-secondary font-semibold text-center tracking-wide mt-8 md:mt-10">
+				{name}
+			</h1>
 
-			<div className="flex justify-center items-center gap-10 mt-6">
-				<a href={twitterCloneLink}>
-					<button className="action__button">
-						<img className="h-6" src={icon} alt="" />
-						<h1 className="font-bold ml-1">Github</h1>
+			{/* md:screen */}
+			<div className="lg:flex gap-8 md:gap-y-4 md:mt-10">
+				{/* IMAGE PATH */}
+				<div
+					className={`shadow-lg md:my-auto lg:w-1/2 ${
+						rightSideImage && 'order-2'
+					}`}
+				>
+					<img className="rounded-lg cursor-pointer" src={img} alt={name} />
+				</div>
+				<div className="md:flex md:flex-col mt-8 lg:mt-0 md lg:w-1/2">
+					{/* PROJECT DISCRIPTION PARAGRAPH */}
+					<p className="md:my-auto">{projectDiscription}</p>
+				</div>
+			</div>
+			{/* GITHUB & ACTION BUTTONS */}
+			<div className="flex justify-center items-center gap-12 mt-16 order-2">
+				<a href={liveLink}>
+					<button className="ml-2 py-2 px-4 items-center font-medium rounded-md  cursor-pointer focus:outline-none flex bg-secondary border border-secondary text-white justify-center">
+						<img className="h-4 sm:h-6" src={icon} alt="" />
+						<h1 className="text-sx font-bold ml-1 sm:text-lg">Github</h1>
 					</button>
 				</a>
 
 				<a href="https://vercel.com">
-					<button className="action__button">
+					<button className="ml-2 py-2 px-4 rounded-md border border-green-600 bg-green-600 cursor-pointer  justify-center items-center focus:outline-none text-white flex">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							class="h-6 w-6"
+							class="h-4 w-4 sm:h-6 sm:w-6"
 							viewBox="0 0 20 20"
 							fill="currentColor"
 						>
@@ -39,28 +57,11 @@ const Project = ({
 								clip-rule="evenodd"
 							/>
 						</svg>
-						<h1 className="font-bold ml-1">In Action</h1>
+						<h1 className="text-sm sm:text-lg font-bold ml-1 whitespace-nowrap">
+							See Live
+						</h1>
 					</button>
 				</a>
-			</div>
-			<p className="mt-6 ">
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae,
-				voluptate earum nostrum quibusdam possimus quo omnis minus eius cum
-				beatae expedita perferendis quae consequatur suscipit enim eligendi
-				placeat. Sit, incidunt?
-			</p>
-			<div>
-				<h2 className="text-center mt-8 text-lg underline underline-offset-4 decoration-lightBlue tracking-wide">
-					Tech Stack
-				</h2>
-				<div className="mt-2">
-					<button className="tech__button">
-						<a href="https://tailwindcss.com/">{stackOne}</a>
-					</button>
-					<button className="tech__button">{stackTwo}</button>
-					<button className="tech__button">{stackThree}</button>
-					<button className="tech__button">{stackFour}</button>
-				</div>
 			</div>
 		</div>
 	);

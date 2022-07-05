@@ -14,13 +14,14 @@ module.exports = {
 			black: 900,
 		},
 		colors: {
-			primary: '#6E5BE2',
-			secondary: '#1B2916',
+			primary: '#6366F1',
+			secondary: '#0f172a',
+			dark: '#17181b',
 			neutral: '#FDFDFD',
-			lightBlue: '#9386e4',
+			lightBlue: '#818CF8',
 
 			gradient:
-				'linear-gradient(110.52deg, rgba(234, 203, 203, 0.44) 9%, rgba(207, 163, 241, 0.22) 47.77%, rgba(170, 135, 245, 0.41) 90.75%)',
+				'linear-gradient(110.52deg, rgba(248, 202, 202, 0.44) 9%, rgba(207, 163, 241, 0.22) 47.77%, #7C7BF4 90.75%))',
 		},
 		extend: {},
 	},

@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { MenuAlt2Icon } from '@heroicons/react/outline';
 import { XIcon } from '@heroicons/react/outline';
 import MobileNav from './MobileNav';
-import NavLinks from './NavLinks';
 import { Link } from 'react-scroll/modules';
 
 const Navbar = () => {
@@ -21,24 +20,26 @@ const Navbar = () => {
 		/>
 	);
 	const closeMobileMenu = () => setNavOpen(false);
+
 	return (
-		<nav className="px-10 shadow-sm p-3 md:p-4 w-full bg-neutral fixed mb-5 z-50">
+		<nav className="px-10 shadow-md p-4 md:p-4 w-full bg-neutral fixed mb-5 z-50 text-center">
 			<div className="flex justify-between">
 				<h1 className="font-light">
 					<Link
 						smooth="true"
 						duration={1000}
-						className="cursor-pointer font-light"
+						className="cursor-pointer font-light transition duration-150 ease-linear"
 						to="header"
 					>
 						Prashant Indurkar
 					</Link>
 				</h1>
-				{navOpen ? navClose : navOpenIcon}
+				<div className="md:hidden">{navOpen ? navClose : navOpenIcon}</div>
+				<div></div>
 			</div>
-			<div>
+			<div className="relative">
 				{navOpen && (
-					<NavLinks isMobile={true} closeMobileMenu={closeMobileMenu} />
+					<MobileNav isMobile={true} closeMobileMenu={closeMobileMenu} />
 				)}
 			</div>
 		</nav>
