@@ -3,7 +3,7 @@ import foldedHands from "../img/foldedHands.svg";
 import { DownloadIcon } from "@heroicons/react/solid";
 function Header() {
   return (
-    <div className="mx-4 ">
+    <div className="mx-4 mt-4 ">
       <div
         id="header"
         className="header__background text-secondary z-50 flex flex-col items-center justify-center  tracking-wide"

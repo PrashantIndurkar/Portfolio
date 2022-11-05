@@ -15,31 +15,24 @@ body {
 
 .header__background {
   background-image: linear-gradient(#08070b 1.8px, transparent 1.8px),
-    linear-gradient(to right, #08070b 1.8px, rgb(19, 19, 21) 1.8px);
+    linear-gradient(to right, #08070b 1.8px, rgb(0, 0, 0) 1.8px);
   background-size: 25px 25px;
 }
 .about__header {
-  background-image: radial-gradient(#d9d9f9 0.8px, transparent 0.8px),
-    radial-gradient(#d9d9f9 0.8px, #f7f4f4 0.8px);
+  background-image: radial-gradient(#d9d9f9b9 0.3px, transparent 0.5px),
+    radial-gradient(#d9d9f9b9 0.3px, #13111a 0.5px);
   background-size: 32px 32px;
   background-position: 0 0, 16px 16px;
 }
 .contact__background {
   background-size: 13px 13px;
-  background-image: repeating-linear-gradient(
-    45deg,
-    #e9ebf8 0,
-    #e0e2f5 1.3px,
-    #ededf7 0,
-    #ededf7 50%
-  );
 }
 @layer components {
   .header__background {
-    @apply h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[75vh];
+    @apply h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[78vh] rounded-lg;
   }
 
   .skill__container {
-    @apply flex h-16 w-16 cursor-pointer items-center justify-center rounded-md border-[1px] border-[#36363636] transition duration-200 hover:-translate-y-[2px] hover:border-[#bdb5f3] hover:shadow-md sm:h-32 sm:w-32;
+    @apply flex h-16 w-16 items-center justify-center rounded-md border-[2px] border-[#272431] transition duration-200 hover:-translate-y-[2px] hover:border-[#5d5770] hover:shadow-md sm:h-32 sm:w-32 bg-dark_light;
   }
 }

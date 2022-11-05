@@ -18,6 +18,7 @@ module.exports = {
       black: "#000000",
       dark_light: "#1d1a27",
       purple_light: "#c7c5f2",
+      white_text: "#f8f5e9",
       neutral: "#fff",
       gradient:
         "linear-gradient(110.52deg, rgba(248, 202, 202, 0.44) 9%, rgba(207, 163, 241, 0.22) 47.77%, #7C7BF4 90.75%))",

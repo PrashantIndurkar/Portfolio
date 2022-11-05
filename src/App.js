@@ -18,10 +18,10 @@ function App() {
       <AboutMe />
       <Skills />
       <GetInTouch />
-      <footer className="my-4 mx-10 text-center text-sm md:text-base ">
+      <footer className="py-6  text-center text-sm md:text-base text-white_text bg-black">
         <p>
           Build With <span className="font-medium">React</span>,{" "}
-          <span className="font-medium">TailwindCss</span> & Deploy{" "}
+          <span className="font-medium">TailwindCss</span> & Deployed on{" "}
           <span className="font-medium">Vercel</span>
         </p>
 
