@@ -10,7 +10,7 @@ import Notice from "./components/Notice";
 function App() {
   const today = new Date();
   return (
-    <div>
+    <div className="scroll-smooth">
       {/* <Notice /> */}
       {/* <Navbar /> */}
       <Header />

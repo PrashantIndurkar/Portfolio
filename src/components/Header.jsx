@@ -12,7 +12,8 @@ function Header() {
           <div className="space-y-2 md:space-y-8">
             <div>
               <p className="text-start text-xs tracking-wider text-[#c7c5f2] md:text-base lg:mb-4">
-                Hey i'm,
+                <span className="md:text-xl text-lg">&#128075;</span> Hey hi
+                I'm,
               </p>
               <h1 className="text-white text-3xl font-bold leading-normal sm:text-4xl md:text-5xl lg:text-6xl ">
                 Prashant Indurkar
