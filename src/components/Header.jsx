@@ -11,7 +11,7 @@ function Header() {
         <div className="text-center md:-mt-8 ">
           <div className="space-y-2 md:space-y-8">
             <div>
-              <p className="text-start text-xs tracking-wider text-[#c7c5f2] md:text-base mb-4">
+              <p className="text-start text-xs tracking-wider text-[#c7c5f2] md:text-base lg:mb-4">
                 Hey i'm,
               </p>
               <h1 className="text-white text-3xl font-bold leading-normal sm:text-4xl md:text-5xl lg:text-6xl ">
@@ -26,12 +26,15 @@ function Header() {
             {/* <button className="bg-secondary text-white drop-shadow-indigo-800 rounded-sm border border-[#c7c5f2] px-4 py-1 text-base font-bold tracking-wide shadow-lg duration-150 hover:bg-[#3a3846] md:rounded-md md:px-8 md:py-2 md:text-lg ">
               <a href="#">Hire Me</a>
             </button> */}
-            <button className="drop-shadow-dark rounded-sm border border-dark_light bg-[#3a3846] px-4 py-1 text-base font-semibold tracking-wide text-[#c7c5f2] shadow-lg duration-150 hover:bg-[#2d2b36]  md:rounded-md md:px-4 md:py-2 md:text-lg">
-              {/* <a href="https://drive.google.com/uc?export=download&id=1D1vpyT9Gsqv5IzmQWIpDp2hymAOx2nCK"> */}
-              <a href="https://www.dropbox.com/s/v6lpmoc5s64yi3l/Prashant%20Indurkar%20Front%20End%20Developer%20Resume%20V1.pdf?dl=0">
+            <a
+              href="https://www.dropbox.com/s/v6lpmoc5s64yi3l/Prashant%20Indurkar%20Front%20End%20Developer%20Resume%20V1.pdf?dl=0"
+              target="_blank"
+            >
+              <button className="drop-shadow-dark rounded-sm border border-dark_light bg-[#3a3846] px-4 py-1 text-base font-semibold tracking-wide text-[#c7c5f2] shadow-lg duration-150 hover:bg-[#2d2b36]  rounded-md md:px-4 md:py-2 md:text-lg">
+                {/* <a href="https://drive.google.com/uc?export=download&id=1D1vpyT9Gsqv5IzmQWIpDp2hymAOx2nCK"> */}
                 <DownloadIcon className=" inline h-6 w-6 align-middle" /> Resume
-              </a>
-            </button>
+              </button>
+            </a>
             {/* <a
               href="https://www.dropbox.com/s/v6lpmoc5s64yi3l/Prashant%20Indurkar%20Front%20End%20Developer%20Resume%20V1.pdf?dl=0"
               class="bg-green-600 group relative inline-flex items-center justify-start overflow-hidden rounded-md px-6 py-3 font-medium transition-all"

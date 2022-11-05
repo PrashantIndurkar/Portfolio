@@ -61,7 +61,10 @@ const AboutMe = () => {
             definitely share when I build some cool stuff with it. I listen a
             lot of LoFi, k-pop, Streaming music and podcasts all the time. Here
             is my profile on{" "}
-            <a href="https://open.spotify.com/user/h0zw2h4earqhkyv7le06o5038">
+            <a
+              href="https://open.spotify.com/user/h0zw2h4earqhkyv7le06o5038"
+              target="_blank"
+            >
               <span className=" underline decoration-dotted underline-offset-4 font-bold cursor-pointer hover:decoration-[#21c45a] hover:text-[#21c45a] transition duration-100 ease-in">
                 Spotify.
               </span>
@@ -73,6 +76,7 @@ const AboutMe = () => {
         <a
           href="https://www.dropbox.com/s/v6lpmoc5s64yi3l/Prashant%20Indurkar%20Front%20End%20Developer%20Resume%20V1.pdf?dl=0"
           class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-indigo-500 rounded-xl group"
+          target="_blank"
         >
           <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-indigo-700 rounded group-hover:-mr-4 group-hover:-mt-4">
             <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>

@@ -18,14 +18,27 @@ function App() {
       <AboutMe />
       <Skills />
       <GetInTouch />
-      <footer className="py-6  text-center text-sm md:text-base text-white_text bg-black">
+      <footer className="py-6 space-y-2 text-center text-sm md:text-base text-white_text bg-black">
         <p>
-          Build With <span className="font-medium">React</span>,{" "}
-          <span className="font-medium">TailwindCss</span> & Deployed on{" "}
-          <span className="font-medium">Vercel</span>
+          Build With <span className="font-medium text-[#00d8ff]">React</span>,{" "}
+          <span className="font-medium text-[#06b6d4]">TailwindCss</span> &
+          deployed to <span className="font-medium">Vercel</span>
         </p>
 
-        <p className="">Copyright &#169; {today.getFullYear()} OpenSource</p>
+        <p>
+          Get Source Code from{" "}
+          <a
+            href="https://github.com/PrashantIndurkar/Portfolio"
+            target="_blank"
+            className="underline decoration-dotted underline-offset-4 font-medium hover:text-purple_light"
+          >
+            Github
+          </a>
+        </p>
+        <p className="">
+          Build &#64; {today.getFullYear()} with{" "}
+          <span className="text-[#f1b1ff] font-bold">&#10084;</span>
+        </p>
       </footer>
     </div>
   );

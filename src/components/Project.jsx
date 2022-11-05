@@ -1,10 +1,11 @@
 import React from "react";
 import { FiExternalLink } from "react-icons/fi";
+import github from "../img/icons8-github-128.svg";
 
 const Project = ({
   name,
   img,
-  icon,
+  githubLiveLink,
   liveLink,
   rightSideImage,
   projectDescription,
@@ -25,7 +26,7 @@ const Project = ({
         </div>
         <div className="md:flex md:flex-col md:gap-y-4 lg:w-1/2 ">
           {/* TITLE NAME*/}
-          <h1 className="text-2xl  md:text-3xl lg:text-4xl text-secondary font-bold  tracking-wide mt-8 mb-6 text-white ">
+          <h1 className="text-2xl  md:text-3xl lg:text-4xl text-secondary font-bold  tracking-wide mt-8 mb-6 lg:mt-0 lg:mb-0    text-white ">
             {name}
           </h1>
           {/* PROJECT DISCRIPTION PARAGRAPH */}
@@ -34,14 +35,14 @@ const Project = ({
       </div>
       {/* GITHUB & ACTION BUTTONS */}
       <div className="flex justify-center items-center gap-12 mt-16 order-2">
-        <a href={liveLink}>
+        <a href={githubLiveLink} target="_blank">
           <button className="ml-2 py-2 px-4 items-center font-medium rounded-md  cursor-pointer focus:outline-none flex bg-secondary border border-secondary text-white justify-center">
-            <img className="h-4 sm:h-6" src={icon} alt="" />
+            <img className="h-4 sm:h-6" src={github} alt="" />
             <h1 className="text-sx font-bold ml-1 sm:text-lg">Github</h1>
           </button>
         </a>
 
-        <a href={liveLink}>
+        <a href={liveLink} target="_blank">
           <button className="ml-2 py-2 px-4 rounded-lg border border-[#63925d] bg-[#63925d] cursor-pointer  justify-center items-center focus:outline-none text-white flex">
             <h1 className="text-sm sm:text-lg font-semibold ml-1 whitespace-nowrap">
               Live Demo

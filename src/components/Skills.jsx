@@ -5,7 +5,6 @@ import jsLogo from "../img/icons/javascript.svg";
 import tsLogo from "../img/icons/typescript.svg";
 import reactLogo from "../img/icons/react.svg";
 import reduxLogo from "../img/icons/redux.svg";
-import nextLogo from "../img/icons/nextjs.svg";
 import nodeJsLogo from "../img/icons/nodejs-icon.svg";
 // importing Design and Development icons
 import figmaIcon from "../img/icons/figma-1.svg";
@@ -56,14 +55,14 @@ const Skills = () => {
               className="skill__container"
             >
               <img className="h-10 w-10" src={jsLogo} alt="" />
-              <h1 className="hidden">JavaScript</h1>
+              {/* <h1 className="text-[#efd81d]">JavaScript</h1> */}
             </a>
             <a
               href="https://www.typescriptlang.org/"
               className="skill__container"
             >
               <img className="h-10 w-10 " src={tsLogo} alt="" />
-              <h1 className="hidden  ">TypeScript</h1>
+              {/* <h1 className="text-[#a8d3fd]">TypeScript</h1> */}
             </a>
             <a href="https://reactjs.org/" className="skill__container">
               <img className="h-10 w-10" src={reactLogo} alt="" />
@@ -74,11 +73,9 @@ const Skills = () => {
               <h1 className="ml-1 hidden sm:flex">Redux</h1>
             </a>
             <a href="https://nextjs.org/" className="skill__container">
-              <img
-                className="h-10 sm:h-14 sm:w-14 w-10"
-                src={nextLogo}
-                alt=""
-              />
+              <h1>
+                NEXT<sub className="text-[0.55rem]">.JS</sub>
+              </h1>
             </a>
             <a href="https://nodejs.org/" className="skill__container">
               <img className="h-10 w-10" src={nodeJsLogo} alt="" />

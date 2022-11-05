@@ -46,22 +46,25 @@ const GetInTouch = () => {
         <div className="pb-12 text-purple_light">
           <ul className="flex justify-between cursor-pointer ">
             <li className="hover:text-indigo-300 transition duration-150 ease-in">
-              <a href="https://twitter.com/prashant2weet">
+              <a href="https://twitter.com/prashant2weet" target="_blank">
                 <FaTwitter className="h-6 w-6" />
               </a>
             </li>
             <li className="hover:text-indigo-300 transition duration-150 ease-in">
-              <a href="https://www.instagram.com/prashantt.in/">
+              <a href="https://www.instagram.com/prashantt.in/" target="_blank">
                 <FaInstagram className="h-6 w-6" />
               </a>
             </li>
             <li className="hover:text-indigo-300 transition duration-150 ease-in">
-              <a href="https://github.com/PrashantIndurkar">
+              <a href="https://github.com/PrashantIndurkar" target="_blank">
                 <FaGithub className="h-6 w-6" />
               </a>
             </li>
             <li className="hover:text-indigo-300 transition duration-150 ease-in">
-              <a href="https://www.linkedin.com/in/prashant-indurkar-19a447150/">
+              <a
+                href="https://www.linkedin.com/in/prashant-indurkar-19a447150/"
+                target="_blank"
+              >
                 <FaLinkedinIn className="h-6 w-6" />
               </a>
             </li>
