@@ -74,7 +74,7 @@ const AboutMe = () => {
       </div>
       <div className="text-center mb-16">
         <a
-          href="https://www.dropbox.com/s/v6lpmoc5s64yi3l/Prashant%20Indurkar%20Front%20End%20Developer%20Resume%20V1.pdf?dl=0"
+          href="https://www.dropbox.com/s/2bp65fkzsnvw1j5/Prashant%20Indurkar%20Front%20End%20Developer%20Resume%20V1.pdf?dl=0"
           class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-indigo-500 rounded-xl group"
           target="_blank"
         >

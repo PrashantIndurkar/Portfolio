@@ -1,7 +1,7 @@
 import React from "react";
 
 import Reddit from "../img/projectThumbnail/reddit2.png";
-import Netflix from "../img/projectThumbnail/netflix2.png";
+import pureBeauty from "../img/projectThumbnail/pureBeauty.png";
 import Spotify from "../img/projectThumbnail/spotify1.png";
 // import Taskit from "../img/projectThumbnail/Taskit.png";
 
@@ -10,19 +10,19 @@ import Project from "./Project";
 function ProjectSection() {
   const redditLiveLink = "https://reddit-ish.vercel.app/";
   const spotifyLiveLink = "https://spotify-ui-puce.vercel.app/";
-  const netflixLiveLink = "https://netflix-clone-lemon-xi.vercel.app/";
+  const pureBeautyLiveLink = "https://pure-beauty.vercel.app/";
 
   const RedditDescription =
-    "Implemented CRUD operations. They can Join, Create Communities upVote/downVote posts. They can leave comments and delete them also. Tech Stack: TypeScript, NEXT.js, React.js, Recoil, and ChakraUI, for backend  Firebase V9 with the help of React-firebase-hook. Authentication: Sign up with Google, Email & Password, & Forgot password.";
+    "Performed CRUD operations. They can Join, Create Communities upVote/downVote posts. They can leave comments and delete them also. Tech Stack: TypeScript, NEXT.js, React.js, Recoil, and ChakraUI, for backend  Firebase V9 with the help of React-firebase-hook. Authentication: Sign up with Google, Email & Password, & Forgot password.";
   const redditGithubLink = "https://github.com/PrashantIndurkar/Reddit-Clone";
 
   const spotifyDescription =
     "React.js, TailwindCss, React-icons, Tailwind-Scrollbar, Git & Github, Deployed on Vercel. Clones are almost similar to the original sites achieved using TailwindCss Grid Flex-box, Media Queries, and Configuration. Everything is fully Responsive.";
   const spotifyGithubLink = "https://github.com/PrashantIndurkar/Spotify-Ui";
 
-  const NetflixDescription =
-    "Exact same landing page like Netflix, with google sign In with firebase. Tech Stack:TypeScript, React.js,Next.js, TailwindCss, React-icons, Tailwind-Scrollbar, Git & Github,deployed on Vercel. Fully responsive and mobile friendly. Stripe payment gateway for subscription.";
-  const netflixGithubLink = "https://github.com/PrashantIndurkar/Netflix-clone";
+  const pureBeautyDescription =
+    "Full-Stack Application with Next.js for the Front-End and Sanity.io as a Back-End. It has 6+ pages including Home, Products, Product Details, Checkout, Stripe payment, and Order history page. It's a Beauty Tech cosmetic eCommerce App.  Tech Stack TypeScript, Next.js, Redux, Redux-toolkit, TailwindCss, Framer Motion, Sanity.io.";
+  const pureBeautyGithubLink = "https://github.com/PrashantIndurkar/pureBeauty";
 
   // const slickersDiscription =
   //   "This project is Twitter Clone. Next.js Authantication. Also it has emoji selected using package. Next.js is used for front end and database is firebase and recoil is for state management";
@@ -42,12 +42,12 @@ function ProjectSection() {
           projectDescription={RedditDescription}
         />
         <Project
-          name={"Movie Streaming App Netflix Clone"}
-          img={Netflix}
-          githubLiveLink={netflixGithubLink}
-          liveLink={netflixLiveLink}
+          name={"Beauty Tech E-Commerce App"}
+          img={pureBeauty}
+          githubLiveLink={pureBeautyGithubLink}
+          liveLink={pureBeautyLiveLink}
           rightSideImage={"rightSideImage"}
-          projectDescription={NetflixDescription}
+          projectDescription={pureBeautyDescription}
         />
         <Project
           name={"Spotify Ui Clone"}

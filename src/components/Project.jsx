@@ -26,7 +26,7 @@ const Project = ({
         </div>
         <div className="md:flex md:flex-col md:gap-y-4 lg:w-1/2 ">
           {/* TITLE NAME*/}
-          <h1 className="text-2xl  md:text-3xl lg:text-4xl text-secondary font-bold  tracking-wide mt-8 mb-6 lg:mt-0 lg:mb-0    text-white ">
+          <h1 className="text-2xl  md:text-3xl lg:text-4xl text-secondary font-bold  tracking-wide lg:leading-relaxed mt-8 mb-6 lg:mt-0 lg:mb-0 text-white ">
             {name}
           </h1>
           {/* PROJECT DISCRIPTION PARAGRAPH */}
