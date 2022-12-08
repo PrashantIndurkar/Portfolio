@@ -11,8 +11,8 @@ const GetInTouch = () => {
       className=" mx-6 rounded-xl mt-8 md:mt-12 rounded-br-3xl contact__background"
     >
       <div className="mx-10 sm:mx-20 md:mx-36 lg:mx-36 xl:mx-96 ">
-        <div className="lg:flex gap-x-10 mb-12 lg:mb-20 pt-20 items-center">
-          <div className="space-y-10">
+        <div className="md:flex gap-x-10 mb-12 lg:mb-20 pt-20 items-center">
+          <div className="space-y-10 w-[100%]">
             <h1 className="font-bold text-center text-3xl md:text-4xl text-purple_light tracking-wide">
               Get In Touch
             </h1>
@@ -39,11 +39,11 @@ const GetInTouch = () => {
               </a>
             </div>
           </div>
-          <div className="hidden lg:flex">
+          <div className="mt-10 md:mt-0 flex items-center justify-center bg-purple_light w-full">
             <img
               src={prashantProfile}
               alt=""
-              className="rounded-xl object-contain"
+              className="object-contain rounded-md h-96"
             />
           </div>
         </div>
