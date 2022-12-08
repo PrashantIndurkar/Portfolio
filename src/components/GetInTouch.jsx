@@ -39,7 +39,7 @@ const GetInTouch = () => {
               </a>
             </div>
           </div>
-          <div className="mt-10 md:mt-0 flex items-center justify-center bg-purple_light w-full">
+          <div className="mt-10 md:mt-0 flex items-center justify-center w-full">
             <img
               src={prashantProfile}
               alt=""
