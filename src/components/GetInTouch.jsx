@@ -1,6 +1,6 @@
 import React from "react";
 import { RiSendPlaneFill } from "react-icons/ri";
-import prashantProfile from "../img/prashantProfile.jpg";
+import prashantProfile from "../img/prashant_zoom.jpg";
 import { FaTwitter, FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { SiHashnode } from "react-icons/si";
 
@@ -40,7 +40,11 @@ const GetInTouch = () => {
             </div>
           </div>
           <div className="hidden lg:flex">
-            <img src={prashantProfile} alt="" className="rounded-xl" />
+            <img
+              src={prashantProfile}
+              alt=""
+              className="rounded-xl object-contain"
+            />
           </div>
         </div>
         <div className="pb-12 text-purple_light">
