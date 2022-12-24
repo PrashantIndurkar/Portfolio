@@ -83,8 +83,8 @@ const AboutMe = () => {
           </span>
           <span class="absolute bottom-0 left-0 w-full h-full transition-all duration-300 ease-in-out delay-200 -translate-x-full translate-y-full bg-indigo-600 rounded-2xl group-hover:mb-12 group-hover:translate-x-0"></span>
           <span class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white font-bold">
-            <DocumentDownloadIcon className="h-6 w-6 inline align-middle" />
-            Resume.pdf
+            <DocumentDownloadIcon className="h-6 w-6 inline pb-1" />
+            Resume
           </span>
         </a>
       </div>
