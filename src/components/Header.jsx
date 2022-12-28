@@ -20,12 +20,12 @@ function Header() {
               </h1>
             </div>
             <h1 className="text-xl font-semibold tracking-wide text-[#c7c5f2]  sm:text-2xl md:text-3xl xl:text-4xl">
-              Front End Developer.
+              Full Stack Engineer.
             </h1>
           </div>
           <div className="text-center mt-16">
             <a
-              href="https://www.dropbox.com/s/2bp65fkzsnvw1j5/Prashant%20Indurkar%20Front%20End%20Developer%20Resume%20V1.pdf?dl=0"
+              href="https://www.dropbox.com/s/rpyzs8uk7lqbzrp/Prashant%20Indurkar%20Front%20End%20Developer%20Resume%20-%202023.pdf?dl=0"
               class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-indigo-500 rounded-xl group"
               target="_blank"
             >
