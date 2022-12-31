@@ -14,22 +14,43 @@ body {
 }
 
 .header__background {
-  background-image: linear-gradient(#08070b 1.8px, transparent 1.8px),
+  /* background-image: linear-gradient(#08070b 1.8px, transparent 1.8px),
     linear-gradient(to right, #08070b 1.8px, rgb(0, 0, 0) 1.8px);
-  background-size: 25px 25px;
+  background-size: 25px 25px; */
+  /* background-color: #0b0a0a; */
+  /* opacity: 1;
+  background-image: radial-gradient(circle at center center, #7e85a0, #0b0a0a),
+    repeating-radial-gradient(
+      circle at center center,
+      #7e85a0,
+      #7e85a0,
+      33px,
+      transparent 66px,
+      transparent 33px
+    );
+  background-blend-mode: multiply; */
+  background-color: #000000;
+  opacity: 1;
+  background-image: radial-gradient(#22294a 1.75px, #000000 1.75px);
+  background-size: 35px 35px;
 }
 .about__header {
-  background-image: radial-gradient(#d9d9f9b9 0.3px, transparent 0.5px),
-    radial-gradient(#d9d9f9b9 0.3px, #13111a 0.5px);
-  background-size: 32px 32px;
-  background-position: 0 0, 16px 16px;
+  background-color: #13111a;
+  opacity: 1;
+  background-image: radial-gradient(
+      #4f4f4f 1.1500000000000001px,
+      transparent 1.1500000000000001px
+    ),
+    radial-gradient(#1d1919 1.1500000000000001px, #13111a 1.1500000000000001px);
+  background-size: 46px 46px;
+  background-position: 0 0, 23px 23px;
 }
 .contact__background {
   background-size: 13px 13px;
 }
 @layer components {
   .header__background {
-    @apply h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[78vh] rounded-lg;
+    @apply h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[90vh] rounded-3xl;
   }
 
   .skill__container {

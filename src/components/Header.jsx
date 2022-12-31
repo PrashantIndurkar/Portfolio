@@ -15,12 +15,12 @@ function Header() {
                 <span className="md:text-xl text-lg">&#128075;</span> Hey hi
                 I'm,
               </p>
-              <h1 className="text-white text-3xl font-bold leading-normal sm:text-4xl md:text-5xl lg:text-6xl ">
+              <h1 className="text-white text-3xl font-bold tracking-wide  sm:text-4xl md:text-5xl lg:text-[5.5rem] ">
                 Prashant Indurkar
               </h1>
             </div>
-            <h1 className="text-xl font-semibold tracking-wide text-[#c7c5f2]  sm:text-2xl md:text-3xl xl:text-4xl">
-              Full Stack Engineer.
+            <h1 className="text-xl font-bold tracking-wide text-[#c7c5f2]  sm:text-4xl md:text-5xl lg:text-[4.5rem]">
+              Front End Engineer.
             </h1>
           </div>
           <div className="text-center mt-16">
