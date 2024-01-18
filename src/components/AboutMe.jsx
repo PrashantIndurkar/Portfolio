@@ -13,12 +13,9 @@ const AboutMe = () => {
         </h1>
         <div className="sm:mx-20 md:mx-28 lg:mx-48 xl:mx-96 mt-8 md:mt-10 space-y-8 sm:space-y-12 leading-relaxed lg:leading-loose tracking-wide font-normal text-base md:text-lg text-white_text">
           <p>
-            I'm 22 years old computer science student passionate about
-            <span className="font-bold text-[#fec7c7]">
-              {" "}
-              Web development
-            </span>{" "}
-            completed a masters from University of Nanded Maharashtra India.
+            Currently, I am a Full Stack Developer with 1+ years of{" "}
+            <span className="font-bold text-[#fcff9c]"> JavaScript</span>{" "}
+            experience. I earned my master's degree in 2023.
           </p>
           <p>
             I learned Programming when I was in high school and the language was{" "}
