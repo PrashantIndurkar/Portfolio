@@ -36,7 +36,7 @@ function App() {
           </a>
         </p>
         <p className="">
-          Build &#64; {today.getFullYear()} with{" "}
+          Build &#64; 2023 with{" "}
           <span className="text-[#f1b1ff] font-bold">&#10084;</span>
         </p>
       </footer>
