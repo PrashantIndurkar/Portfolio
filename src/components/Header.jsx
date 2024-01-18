@@ -25,7 +25,7 @@ function Header() {
           </div>
           <div className="text-center mt-16">
             <a
-              href="https://www.dropbox.com/scl/fi/cozi9opvh9excbfikvjv8/Prashant-Indurkar-Front-End-Developer-Resume.pdf?rlkey=zz4wbdf796tiepptqfzwf1cpb&dl=0"
+              href="https://www.dropbox.com/scl/fi/cozi9opvh9excbfikvjv8/Prashant-Indurkar-Full-Stack-Developer-Resume.pdf?rlkey=zz4wbdf796tiepptqfzwf1cpb&dl=0"
               class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-indigo-500 rounded-xl group"
               target="_blank"
             >
