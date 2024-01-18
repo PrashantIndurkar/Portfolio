@@ -1,6 +1,6 @@
 import React from "react";
 import { RiSendPlaneFill } from "react-icons/ri";
-import prashantProfile from "../img/prashant_zoom.jpg";
+import prashantProfile from "../img/resume_pic.jpg";
 import { FaTwitter, FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { SiHashnode } from "react-icons/si";
 
