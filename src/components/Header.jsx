@@ -12,20 +12,19 @@ function Header() {
           <div className="space-y-2 md:space-y-8">
             <div>
               <p className="text-start text-xs tracking-wider text-[#c7c5f2] md:text-base lg:mb-4">
-                <span className="md:text-xl text-lg">&#128075;</span> Hey hi
-                I'm,
+                <span className="md:text-xl text-lg">&#128075;</span> Hey, I'm,
               </p>
               <h1 className="text-white text-3xl font-bold tracking-wide  sm:text-4xl md:text-5xl lg:text-[5.5rem] ">
                 Prashant Indurkar
               </h1>
             </div>
-            <h1 className="text-xl font-bold tracking-wide text-[#c7c5f2]  sm:text-4xl md:text-5xl lg:text-[4.5rem]">
-              Front End Engineer.
+            <h1 className="text-xl font-bold tracking-wide text-[#c7c5f2] sm:text-4xl md:text-5xl lg:text-[4rem]">
+              Full Stack Developer
             </h1>
           </div>
           <div className="text-center mt-16">
             <a
-              href="https://www.dropbox.com/scl/fi/cozi9opvh9excbfikvjv8/Prashant-Indurkar-Full-Stack-Developer-Resume.pdf?rlkey=zz4wbdf796tiepptqfzwf1cpb&dl=0"
+              href="https://www.dropbox.com/scl/fi/xs5t6f59koqivdz5krnow/Prashant-Indurkar-Full-Stack-Developer-Resume.pdf?rlkey=yxazwbdll2q7b5kvk7tefcjme&st=gvn729tj&dl=0"
               class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-indigo-500 rounded-xl group"
               target="_blank"
             >

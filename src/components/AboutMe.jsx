@@ -13,7 +13,7 @@ const AboutMe = () => {
         </h1>
         <div className="sm:mx-20 md:mx-28 lg:mx-48 xl:mx-96 mt-8 md:mt-10 space-y-8 sm:space-y-12 leading-relaxed lg:leading-loose tracking-wide font-normal text-base md:text-lg text-white_text">
           <p>
-            Currently, I am a Full Stack Developer with 1+ years of{" "}
+            Currently, I am a Full Stack Developer with 1.5+ years of{" "}
             <span className="font-bold text-[#fcff9c]"> JavaScript</span>{" "}
             experience. I earned my master's degree in 2023.
           </p>
@@ -71,7 +71,7 @@ const AboutMe = () => {
       </div>
       <div className="text-center mb-16">
         <a
-          href="https://www.dropbox.com/scl/fi/cozi9opvh9excbfikvjv8/Prashant-Indurkar-Full-Stack-Developer-Resume.pdf?rlkey=zz4wbdf796tiepptqfzwf1cpb&dl=0"
+          href="https://www.dropbox.com/scl/fi/xs5t6f59koqivdz5krnow/Prashant-Indurkar-Full-Stack-Developer-Resume.pdf?rlkey=yxazwbdll2q7b5kvk7tefcjme&st=gvn729tj&dl=0"
           class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-indigo-500 rounded-xl group"
           target="_blank"
         >

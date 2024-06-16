@@ -2,15 +2,21 @@ import React from "react";
 
 import Reddit from "../img/projectThumbnail/reddit2.png";
 import pureBeauty from "../img/projectThumbnail/pureBeauty.png";
+import pingMedia from "../img/projectThumbnail/pingMedia.png";
 import Spotify from "../img/projectThumbnail/spotify1.png";
 // import Taskit from "../img/projectThumbnail/Taskit.png";
 
 import Project from "./Project";
 
 function ProjectSection() {
+  const pingMediaLiveLink = "https://ping-media.vercel.app/";
   const redditLiveLink = "https://reddit-ish.vercel.app/";
   const spotifyLiveLink = "https://spotify-ui-puce.vercel.app/";
   const pureBeautyLiveLink = "https://pure-beauty.vercel.app/";
+
+  const pingDescription =
+    "Open-source full stack social network and job hunting platform for developers and designers to connect and have fun.Designed and implemented a comprehensive Social Network website with robust login and register functionalities. Ensured accurate error handling, data security, and privacy by integrating protected routes. Optimized code structure by splitting it into reusable components, facilitating easy integration and maintenance across the project. Tech: TypeScript, NextJs, React, Prisma, TailwindCSS, Tanstack-query, NextAuth ...";
+  const pingGithubLink = "https://github.com/PrashantIndurkar/ping.media";
 
   const RedditDescription =
     "Performed CRUD operations. They can Join, Create Communities upVote/downVote posts. They can leave comments and delete them also. Tech Stack: TypeScript, NEXT.js, React.js, Recoil, and ChakraUI, for backend  Firebase V9 with the help of React-firebase-hook. Authentication: Sign up with Google, Email & Password, & Forgot password.";
@@ -32,8 +38,16 @@ function ProjectSection() {
     <div className="bg-white bg-dark mx-6 rounded-xl mt-8 md:mt-12  md:pb-8 ">
       <div className="md:mx-32 ">
         <h1 className="mx-10 md:mb-16 pt-12 text-3xl md:text-5xl font-bold text-center text-purple_light tracking-wide lg:tracking-wide">
-          Personal Work
+          Selected Projects
         </h1>
+        <Project
+          name={"Tech Network app for developers and designers"}
+          img={pingMedia}
+          githubLiveLink={pingGithubLink}
+          liveLink={pingMediaLiveLink}
+          rightSideImage={"rightSideImage"}
+          projectDescription={pingDescription}
+        />
         <Project
           name={"Full Stack Social Media Clone"}
           img={Reddit}

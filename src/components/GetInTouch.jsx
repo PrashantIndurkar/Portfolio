@@ -3,6 +3,7 @@ import { RiSendPlaneFill } from "react-icons/ri";
 import prashantProfile from "../img/resume_pic.jpg";
 import { FaTwitter, FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { SiHashnode } from "react-icons/si";
+import { FaXTwitter } from "react-icons/fa6";
 
 const GetInTouch = () => {
   return (
@@ -51,7 +52,7 @@ const GetInTouch = () => {
           <ul className="flex justify-between cursor-pointer ">
             <li className="hover:text-indigo-300 transition duration-150 ease-in">
               <a href="https://twitter.com/prashant2weet" target="_blank">
-                <FaTwitter className="h-6 w-6" />
+                <FaXTwitter className="h-6 w-6" />
               </a>
             </li>
             <li className="hover:text-indigo-300 transition duration-150 ease-in">
