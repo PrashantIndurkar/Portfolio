@@ -50,7 +50,7 @@ body {
 }
 @layer components {
   .header__background {
-    @apply h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[90vh] rounded-3xl;
+    @apply h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[98vh] rounded-3xl;
   }
 
   .skill__container {

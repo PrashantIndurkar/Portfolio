@@ -18,14 +18,17 @@ const GetInTouch = () => {
               Get In Touch
             </h1>
             <div className="">
-              <h1 className="leading-normal tracking-wide font-normal lg:leading-7 text-white_text">
-                I love to Desing Websites and make things. I’m currently looking
-                for opportunities full time in India or remote jobs all around
-                the world, my inbox is always open. if you want to say Hi feel
-                free to do, I’ll try my best to get back to you asap{" "}
+              <h1 className="leading-normal tracking-wide font-normal lg:leading-loose text-white_text">
+                I absolutely love designing websites and creating things. Right
+                now, I'm allways looking for opportunities all over the world 🌍
+                or in office India 🇮🇳 from anywhere in the world. My inbox is
+                always open, so please don't hesitate to say hi. I promise to
+                get back to you as soon as possible.
+                <br />
+                <br />
                 <span className="font-bold text-[#fadfc1]">
                   {" "}
-                  Thank You &#128591;
+                  &#128591; Thank You &#128591;
                 </span>
                 !
               </h1>

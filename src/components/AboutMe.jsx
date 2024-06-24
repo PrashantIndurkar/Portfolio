@@ -3,10 +3,7 @@ import { DocumentDownloadIcon } from "@heroicons/react/outline";
 import { FiExternalLink } from "react-icons/fi";
 const AboutMe = () => {
   return (
-    <div
-      id="about"
-      className=" rounded-xl pb-6 mx-6 mt-8 md:mt-12 about__header mb-12 "
-    >
+    <div id="about" className=" rounded-xl pb-6 mx-6 about__header mb-12 ">
       <div className="mx-10 pb-14">
         <h1 className="font-bold text-center text-3xl md:text-5xl text-purple_light pt-12 tracking-wide">
           About Me

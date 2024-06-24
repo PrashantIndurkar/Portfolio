@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import ProjectSection from "./components/ProjectSection";
 import Skills from "./components/Skills";
 import Notice from "./components/Notice";
+import WorkSection from "./components/WorkSection";
 
 function App() {
   const today = new Date();
@@ -14,6 +15,7 @@ function App() {
       {/* <Notice /> */}
       {/* <Navbar /> */}
       <Header />
+      <WorkSection />
       <ProjectSection />
       <AboutMe />
       <Skills />

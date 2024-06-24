@@ -5,6 +5,9 @@ import jsLogo from "../img/icons/javascript.svg";
 import tsLogo from "../img/icons/typescript.svg";
 import reactLogo from "../img/icons/react.svg";
 import reduxLogo from "../img/icons/redux.svg";
+import solidjsLogo from "../img/icons/solidjs.png";
+import postgreLogo from "../img/icons/postgresql.png";
+import mysql from "../img/icons/mysql.png";
 import nodeJsLogo from "../img/icons/nodejs-icon.svg";
 // importing Design and Development icons
 import figmaIcon from "../img/icons/figma-1.svg";
@@ -40,37 +43,36 @@ const Skills = () => {
               href="https://developer.mozilla.org/en-US/docs/Web/HTML"
               className="skill__container"
             >
-              <img className="h-10 w-10" src={HtmlLogo} alt="" />
-              <h1 className=" hidden sm:flex">HTML</h1>
+              <img className="size-14" src={HtmlLogo} alt="" />
             </a>
             <a
               href="https://developer.mozilla.org/en-US/docs/Web/CSS"
               className="skill__container"
             >
-              <img className="h-10 w-10" src={cssLogo} alt="" />
-              <h1 className="hidden sm:flex">CSS</h1>
+              <img className="size-14" src={cssLogo} alt="" />
             </a>
             <a
               href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
               className="skill__container"
             >
-              <img className="h-10 w-10" src={jsLogo} alt="" />
+              <img className="size-14" src={jsLogo} alt="" />
               {/* <h1 className="text-[#efd81d]">JavaScript</h1> */}
             </a>
             <a
               href="https://www.typescriptlang.org/"
               className="skill__container"
             >
-              <img className="h-10 w-10 " src={tsLogo} alt="" />
+              <img className="size-14 " src={tsLogo} alt="" />
               {/* <h1 className="text-[#a8d3fd]">TypeScript</h1> */}
             </a>
             <a href="https://reactjs.org/" className="skill__container">
-              <img className="h-10 w-10" src={reactLogo} alt="" />
-              <h1 className="ml-1 hidden sm:flex">React</h1>
+              <img className="size-14" src={reactLogo} alt="" />
             </a>
             <a href="https://redux.js.org/" className="skill__container">
-              <img className="h-10 w-10" src={reduxLogo} alt="" />
-              <h1 className="ml-1 hidden sm:flex">Redux</h1>
+              <img className="size-14" src={reduxLogo} alt="" />
+            </a>
+            <a href="https://redux.js.org/" className="skill__container">
+              <img className="size-14" src={solidjsLogo} alt="" />
             </a>
             <a href="https://nextjs.org/" className="skill__container">
               <h1>
@@ -78,8 +80,7 @@ const Skills = () => {
               </h1>
             </a>
             <a href="https://nodejs.org/" className="skill__container">
-              <img className="h-10 w-10" src={nodeJsLogo} alt="" />
-              <h1 className="ml-1 hidden sm:flex">Node.js</h1>
+              <img className="size-14" src={nodeJsLogo} alt="" />
             </a>
           </div>
         </div>
@@ -94,37 +95,35 @@ const Skills = () => {
 				justify-items-center gap-y-6 font-semibold"
         >
           <a href="https://www.figma.com/" className="skill__container">
-            <img className="h-10 w-10" src={figmaIcon} alt="" />
-            <h1 className="hidden sm:flex">Figma</h1>
+            <img className="size-14" src={figmaIcon} alt="" />
           </a>
           <a href="https://www.mongodb.com/" className="skill__container">
-            <img className="h-10 w-10" src={mongoDbIcon} alt="" />
-            <h1 className="hidden sm:flex -ml-2">MongoDb</h1>
+            <img className="size-14" src={mongoDbIcon} alt="" />
+          </a>
+          <a href="https://git-scm.com/" className="skill__container">
+            <img className="size-14 " src={postgreLogo} alt="" />
+          </a>
+          <a href="https://git-scm.com/" className="skill__container">
+            <img className="h-14 w-fit " src={mysql} alt="" />
           </a>
           <a href="https://sass-lang.com/" className="skill__container">
-            <img className="h-10 w-10" src={sassIcon} alt="" />
-            <h1 className="hidden sm:flex ml-1">Sass</h1>
+            <img className="size-14" src={sassIcon} alt="" />
           </a>
           <a href="https://tailwindcss.com/" className="skill__container">
-            <img className="h-10 w-10" src={tailwindCssIcon} alt="" />
-            <h1 className="hidden sm:flex ml-1">Tailwind</h1>
+            <img className="size-14" src={tailwindCssIcon} alt="" />
           </a>
           <a href="https://firebase.google.com/" className="skill__container">
-            <img className="h-10 w-10" src={firebaseIcon} alt="" />
-            <h1 className="hidden sm:flex">Firebase</h1>
+            <img className="size-14" src={firebaseIcon} alt="" />
           </a>
           <a href="https://code.visualstudio.com/" className="skill__container">
-            <img className="h-10 w-10" src={vsCodeIcon} alt="" />
-            <h1 className="hidden sm:flex ml-1">VsCode</h1>
+            <img className="size-14" src={vsCodeIcon} alt="" />
           </a>
           {/* 3rd Row */}
           <a href="https://git-scm.com/" className="skill__container">
-            <img className="h-10 w-10 " src={gitIcon} alt="" />
-            <h1 className="hidden sm:flex ml-1">Git</h1>
+            <img className="size-14 " src={gitIcon} alt="" />
           </a>
           <a href="https://github.com/" className="skill__container">
-            <img className="h-10 w-10 " src={github} alt="" />
-            <h1 className="hidden sm:flex ml-1">GitHub</h1>
+            <img className="size-14 " src={github} alt="" />
           </a>
         </div>
       </div>
