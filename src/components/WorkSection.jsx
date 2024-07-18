@@ -24,6 +24,15 @@ const WorkSection = () => {
         <div className="flex items-center justify-center">
           <div className="max-w-6xl w-full mt-12 grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8">
             <div className="border rounded-md border-[#484848] p-8 ">
+              <div className="flex items-center justify-center h-28 bg-[#296ff1] w-28 rounded-md border border-[#2a2929]">
+                <h2 className="font-bold text-white">SwiftCX</h2>
+              </div>
+              <div className="flex mt-6 gap-x-3 text-[#888888]">
+                <h2>AI-enabled CX platform</h2>·<h2>Jul 2024 - Current</h2>
+              </div>
+              <h1 className="text-xl mt-3 font-semibold">Front End Engineer</h1>
+            </div>
+            <div className="border rounded-md border-[#484848] p-8 ">
               <a
                 href="https://pantryclub.co.za/"
                 className="flex items-center justify-center h-28 bg-[#389b74] w-28 rounded-md border border-[#2a2929]"
@@ -31,15 +40,15 @@ const WorkSection = () => {
                 <h2 className="font-bold text-white">Pantryclub</h2>
               </a>
               <div className="flex mt-6 gap-x-3 text-[#888888]">
-                <h2>Pantryclub</h2>·<h2>Nov 23 - Current</h2>
+                <h2>Pantryclub</h2>·<h2>Nov 2023 - Apr 2024</h2>
               </div>
               <h1 className="text-xl mt-3 font-semibold">
                 Full-stack engineer
               </h1>
             </div>
             <div className="border rounded-md border-[#484848] p-8 ">
-              <div className="flex items-center justify-center h-28 bg-[#7070f5] w-28 rounded-md border border-[#2a2929]">
-                <h2 className="font-bold text-white">Real Estate</h2>
+              <div className="flex items-center justify-center h-28 bg-[#f7f6f6] w-28 rounded-md border border-[#2a2929]">
+                <h2 className="font-bold text-[#4970fa]">Real Estate</h2>
               </div>
               <div className="flex mt-6 gap-x-3 text-[#888888]">
                 <h2>Real Estate Company</h2>·<h2>Feb - Oct 2023</h2>
