@@ -37,7 +37,7 @@ const WorkSection = () => {
                 href="https://pantryclub.co.za/"
                 className="flex items-center justify-center h-28 bg-[#389b74] w-28 rounded-md border border-[#2a2929]"
               >
-                <h2 className="font-bold text-white">Pantryclub</h2>
+                <h2 className="font-bold text-white">PantryClub</h2>
               </a>
               <div className="flex mt-6 gap-x-3 text-[#888888]">
                 <h2>Pantryclub</h2>·<h2>Nov 2023 - Apr 2024</h2>
