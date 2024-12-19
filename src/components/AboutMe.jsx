@@ -68,7 +68,7 @@ const AboutMe = () => {
       </div>
       <div className="text-center mb-16">
         <a
-          href="https://www.dropbox.com/scl/fi/xs5t6f59koqivdz5krnow/Prashant-Indurkar-Full-Stack-Developer-Resume.pdf?rlkey=yxazwbdll2q7b5kvk7tefcjme&st=gvn729tj&dl=0"
+          href="https://www.dropbox.com/scl/fi/3ajhu0fsbf4uf4hcpatth/Front-End-Developer-Prashant-Indurkar.pdf?rlkey=r5z62sw0spd07zg6tbbqns8nl&st=7y07zkxf&dl=0"
           class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-indigo-500 rounded-xl group"
           target="_blank"
         >
